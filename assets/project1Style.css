@@ -1,0 +1,25 @@
+#container {
+  padding: 20vh;
+}
+
+.sticky {
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  opacity: 0.3;
+  position: sticky !important;
+  background-color: cadetblue !important;
+}
+
+.sticky:hover {
+  opacity: 0.9;
+  padding: 10vh;
+  font-size: 1.3em;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
